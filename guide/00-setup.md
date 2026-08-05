@@ -131,6 +131,8 @@ Your browser opens an AWS approval page → click **Allow** → the terminal fil
 > 🔒 **Security habit, learned early:** notice that no secret ever touched the chat window — and none ever should. Your password went into AWS's own sign-in page; the CLI got its credentials through the browser handshake. If a tutorial ever asks you to paste a secret key into an AI chat, close the tab.
 
 > ✅ **Checkpoint:** `get-caller-identity` returns your account number and an ARN ending in `user/claude-course`.
+>
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/d37e88da9009655fb61f90693273cb080fa8e0a3/use%20of%20access%20key.png)
 
 **If something's off, it's one of these:**
 
