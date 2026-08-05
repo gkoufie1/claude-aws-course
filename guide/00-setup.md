@@ -75,6 +75,7 @@ Go to [aws.amazon.com](https://aws.amazon.com) → "Create an AWS Account". Choo
 ### 4b. Create your working user
 
 Don't do day-to-day work as your root account (the one you just signed up with) — that's the master key to everything, and AWS itself warns against it. Instead, make a working user with its own console password:
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/227f31f8273bd69a6fa0eb042b6a47c9d7587d68/IAM.png)
 
 1. In the AWS Console, search **IAM** → **Users** → **Create user**
 2. Name: `claude-course`
