@@ -114,6 +114,7 @@ jobs:
   2. *The trust policy uses the old `sub` format.* Every tutorial on the internet says the claim is `repo:owner/name:ref:...` — **GitHub now embeds numeric IDs**, e.g. `repo:owner@123456/name@7891011:ref:refs/heads/main`, and the old format silently never matches. Tell Claude: *"add a temporary workflow step that prints the OIDC token's `iss`/`aud`/`sub` claims, fix the role's trust policy to match exactly, then remove the step."* That's precisely how we found it.
 - **The CloudFront URL returns 403 or an XML error.** Either the distribution is still `InProgress` (wait it out) or the bucket policy isn't attached yet — paste the error into Claude Code.
 - **Your change is deployed but the browser shows the old page.** That's caching doing its job — hard refresh. If it persists past a minute, ask Claude whether the invalidation step ran.
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/d6fa2d96be146befd61bba51b960e5939bc6bfe0/s3.png)
 
 ## 6 · Stretch goal
 
