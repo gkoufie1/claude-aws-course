@@ -34,6 +34,7 @@ While Claude works, you'll see the one genuinely slow AWS moment of this course:
 > ✅ **Checkpoint:** Claude reports the bucket exists and the distribution is created (status `InProgress` is fine at this point).
 > ✅ **Checkpoint:** the GitHub Actions run is green — all steps ✓, including "Sync site to S3" and "Invalidate CloudFront cache".
 > ✅ **Checkpoint:** your `https://<something>.cloudfront.net` URL loads your page, with the padlock.
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/79e30e3e185474c392262767902b25cd7d6e2f69/Yes.png)
 
 ## 3 · Prove the loop
 
