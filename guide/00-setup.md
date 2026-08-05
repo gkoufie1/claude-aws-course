@@ -78,6 +78,7 @@ Don't do day-to-day work as your root account (the one you just signed up with) 
 
 1. In the AWS Console, search **IAM** → **Users** → **Create user**
 ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/227f31f8273bd69a6fa0eb042b6a47c9d7587d68/IAM.png)
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/82ff79d1bde4f6c136ad03792bd7b9ea246e9c25/create%20user.png)
 3. Name: `claude-course`
 4. Check **Provide user access to the AWS Management Console**. AWS will recommend Identity Center — for a personal account, pick **I want to create an IAM user** instead
 5. Choose **Custom password** and set one, then uncheck **User must create a new password at next sign-in** (you're the only one using it) → Next
