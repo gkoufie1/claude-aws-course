@@ -123,6 +123,8 @@ Scroll down to get to the access keys section and click on Create access key on 
 >
 In the Access key best practices & alternatives page, select Command Line Interface(CLI) and select the checkbox below the page as shown below.
 > ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/fe6506946a35953460519eb77a58d6558b0c8b93/commandline.png)
+>
+Click and leave the next page and download the Access key and Secret access key by clicking on the Download Access Key on the bottom right of the page.
 
 Your browser opens an AWS approval page → click **Allow** → the terminal fills in the rest. The CLI now holds temporary credentials that refresh themselves while you work. (The region gets set *before* the login on purpose — `aws login` refuses to start without one.)
 
