@@ -111,6 +111,7 @@ Here's the mental model for this step: the `aws login` command doesn't ask for a
 4. If AWS asks you to **choose a new password**, that's normal for a first sign-in — set one and update your password manager.
 
 > ✅ **Checkpoint:** the AWS Console loads, and the **top-right corner** says `claude-course @ <your account number>`. That corner label is always how you check *who* you are in AWS.
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/5e7666af9f29cd7d0b851b34145f901fe329ef61/claude%20couse%20in%20the%20console.png)
 
 **Part 2 — back in Claude Code**, paste:
 
