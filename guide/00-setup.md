@@ -96,6 +96,7 @@ Don't do day-to-day work as your root account (the one you just signed up with) 
 > 💡 *Notice what we **didn't** create: access keys. Older tutorials have you download a file of permanent secret keys — a file that works forever and that attackers love to find. The modern CLI signs in through your browser instead, with temporary credentials that expire on their own. Nothing to download, nothing to leak.*
 
 > 💡 *Sidebar: real companies scope permissions way down from AdministratorAccess. For a personal learning account it's fine — and we delete this entire user in Activity 5.*
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/b0766aaa2c29c28d31619ec2d49f2afb3cea7c5f/claude%20user%20create.png)
 
 ### 4c. Sign in — browser first, then CLI
 
