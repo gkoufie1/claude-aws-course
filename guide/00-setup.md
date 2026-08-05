@@ -120,6 +120,9 @@ Here's the mental model for this step: the `aws login` command doesn't ask for a
 ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/ef10e4423a8073671c8d2a39fb6ce423018bc6f2/get%20to%20access%20key.png)
 >Scroll down to get to the access keys section and click on Create access key on the right side as shown in the image below.
 ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/abb6165913f14131740ec40e62d781b7897356eb/create%20access%20key.png)
+>
+> In the Access key best practices & alternatives page, select Command Line Interface(CLI) and select the checkbox below the page as shown below.
+> ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/fe6506946a35953460519eb77a58d6558b0c8b93/commandline.png)
 
 Your browser opens an AWS approval page → click **Allow** → the terminal fills in the rest. The CLI now holds temporary credentials that refresh themselves while you work. (The region gets set *before* the login on purpose — `aws login` refuses to start without one.)
 
