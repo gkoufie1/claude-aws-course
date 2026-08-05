@@ -118,6 +118,8 @@ Here's the mental model for this step: the `aws login` command doesn't ask for a
 > Set my AWS CLI default region to `us-east-1` and output format to `json`. Then run `aws login` — it opens my browser and waits for me to approve. When it finishes, run `aws sts get-caller-identity` and tell me who I'm signed in as. If the ARN ends in `:root`, warn me instead of continuing.
 > Click on the new claude-course IAM user and go to the security credentials to download the access key and the secret access key.
 ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/ef10e4423a8073671c8d2a39fb6ce423018bc6f2/get%20to%20access%20key.png)
+>Scroll down to get to the access keys section and click on Create access key on the right side as shown in the image below.
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/abb6165913f14131740ec40e62d781b7897356eb/create%20access%20key.png)
 
 Your browser opens an AWS approval page → click **Allow** → the terminal fills in the rest. The CLI now holds temporary credentials that refresh themselves while you work. (The region gets set *before* the login on purpose — `aws login` refuses to start without one.)
 
