@@ -84,7 +84,8 @@ Don't do day-to-day work as your root account (the one you just signed up with) 
 5. Check **Provide user access to the AWS Management Console**. AWS will recommend Identity Center — for a personal account, pick **I want to create an IAM user** instead
 6. Choose **Custom password** and set one, then uncheck **User must create a new password at next sign-in** (you're the only one using it) → Next
 7. **Attach policies directly** → check **AdministratorAccess** → Next → **Create user**
-8. On the success screen, copy the **Console sign-in URL** (it contains your 12-digit account number). Save **three things** in your password manager: that URL, the username `claude-course`, and the password you just set
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/0d5aad6d11719ddff197265fd7aaa65492384ff6/select%20permissions.png)
+9. On the success screen, copy the **Console sign-in URL** (it contains your 12-digit account number). Save **three things** in your password manager: that URL, the username `claude-course`, and the password you just set
 
 > 💡 **You now have two AWS logins — don't mix them up.**
 > - **Root** = the *email address* + password from 4a. Lock it away. You'll use it maybe twice a year.
