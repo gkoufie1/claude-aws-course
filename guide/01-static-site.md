@@ -43,6 +43,7 @@ The URL working once is nice. The *loop* is the point:
 > Change the headline on my site to say something new, commit, and push. Then watch the Actions run and tell me when the change is live at my CloudFront URL.
 
 > ✅ **Checkpoint:** within about a minute of the push, a hard refresh (`Cmd+Shift+R` / `Ctrl+Shift+R`) shows your new headline. You now have a website that deploys itself. This exact loop — edit, push, live — is how you'll ship for the rest of the course.
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/f71a718b3fcd2b6a030ff23b960d65a178e8f601/site%20is%20live.png)
 
 ## 4 · What Claude actually ran
 
