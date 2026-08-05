@@ -55,6 +55,7 @@ Claude will detect your OS, install what's missing, and verify. This takes 2–5
 ## Step 3: Connect GitHub (2 minutes)
 
 > Run `gh auth login` and walk me through logging into GitHub. I want GitHub.com, HTTPS, and logging in through the browser.
+> ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/42f1405d87b1a4342c49e70ca2500c017ea785b4/gh%20auth%20login1.png)
 
 The GitHub CLI shows a one-time code, opens your browser, you paste the code, done. No tokens to manage.
 
