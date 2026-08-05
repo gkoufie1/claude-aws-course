@@ -62,6 +62,7 @@ The GitHub CLI shows a one-time code, opens your browser, you paste the code, do
 > ✅ **Checkpoint:** paste this prompt — *"Run `gh auth status` and tell me if I'm logged in."* — and Claude confirms your username.
 
 > 💡 **Already a GitHub user?** `gh auth status` may show more than one account. The one marked `Active account: true` is the one this course will use — if that's not the account you want your projects on, tell Claude: *"switch my active gh account to \<username\>."*
+> ![image alt](https://github.com/gkoufie1/claude-aws-course/blob/1c2f511a322ffe1b292b40badda4468b90428361/gh%20auth%20yes.png)
 
 ## Step 4: Connect AWS (the careful one — 10 minutes)
 
