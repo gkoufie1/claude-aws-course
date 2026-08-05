@@ -75,14 +75,14 @@ Go to [aws.amazon.com](https://aws.amazon.com) → "Create an AWS Account". Choo
 ### 4b. Create your working user
 
 Don't do day-to-day work as your root account (the one you just signed up with) — that's the master key to everything, and AWS itself warns against it. Instead, make a working user with its own console password:
-![image alt](https://github.com/gkoufie1/claude-aws-course/blob/227f31f8273bd69a6fa0eb042b6a47c9d7587d68/IAM.png)
 
 1. In the AWS Console, search **IAM** → **Users** → **Create user**
-2. Name: `claude-course`
-3. Check **Provide user access to the AWS Management Console**. AWS will recommend Identity Center — for a personal account, pick **I want to create an IAM user** instead
-4. Choose **Custom password** and set one, then uncheck **User must create a new password at next sign-in** (you're the only one using it) → Next
-5. **Attach policies directly** → check **AdministratorAccess** → Next → **Create user**
-6. On the success screen, copy the **Console sign-in URL** (it contains your 12-digit account number). Save **three things** in your password manager: that URL, the username `claude-course`, and the password you just set
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/227f31f8273bd69a6fa0eb042b6a47c9d7587d68/IAM.png)
+3. Name: `claude-course`
+4. Check **Provide user access to the AWS Management Console**. AWS will recommend Identity Center — for a personal account, pick **I want to create an IAM user** instead
+5. Choose **Custom password** and set one, then uncheck **User must create a new password at next sign-in** (you're the only one using it) → Next
+6. **Attach policies directly** → check **AdministratorAccess** → Next → **Create user**
+7. On the success screen, copy the **Console sign-in URL** (it contains your 12-digit account number). Save **three things** in your password manager: that URL, the username `claude-course`, and the password you just set
 
 > 💡 **You now have two AWS logins — don't mix them up.**
 > - **Root** = the *email address* + password from 4a. Lock it away. You'll use it maybe twice a year.
