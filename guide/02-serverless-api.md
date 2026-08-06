@@ -40,6 +40,7 @@ After Activity 1's one big slow wait (CloudFront), enjoy this contrast: every pi
 > ✅ **Checkpoint:** Claude shows the DynamoDB table `ACTIVE` and the Lambda created.
 > ✅ **Checkpoint:** you get an endpoint like `https://<api-id>.execute-api.us-east-1.amazonaws.com`.
 > ✅ **Checkpoint:** the three curls work — a `201` with your short URL, a `301` pointing at the original, and stats showing `"hits"` counting up.
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/c282b7b73cdde3d2fab4dffd74980d43cc223c93/lets%20build%20out%20first%20serverless%20api.png)
 
 ## 3 · Play with it
 
