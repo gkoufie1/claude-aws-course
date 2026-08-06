@@ -103,6 +103,7 @@ The Lambda itself is ~90 lines of plain Python — routing on `event["routeKey"]
 - **`create-function` fails: "The role defined for the function cannot be assumed"** — brand-new IAM roles take ~10 seconds to propagate. The starter prompt already tells Claude to retry; if you see it anyway, say *"retry it."*
 - **The endpoint returns `{"message": "Not Found"}`** — the route doesn't match (check method + path) or the stage isn't deployed. Paste the curl and the response into Claude Code.
 - **`500 Internal Server Error`** — the Lambda crashed. Say: *"check the CloudWatch logs for shortlink-api and fix what broke."* Logs are the whole reason that `AWSLambdaBasicExecutionRole` policy exists.
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/2a315ec8c7351e7c9f9b2b32472b68d0444c5c70/message%20not%20found.png)
 
 ## 6 · Stretch goal
 
