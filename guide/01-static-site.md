@@ -120,6 +120,7 @@ jobs:
 ## 6 · Stretch goal
 
 Make the page actually *you*: real name, a line about what you're building, links to your GitHub. Push and watch it go live. (A custom domain like `yourname.com` is possible — CloudFront supports it with a free certificate — but a domain itself costs ~$12/year, so we park that until after the course.)
+![image alt](https://github.com/gkoufie1/claude-aws-course/blob/d5950c0d329a8044185958c48acd4dab9b3372b4/site%20is%20up.png)
 
 ## 7 · Cleanup
 
